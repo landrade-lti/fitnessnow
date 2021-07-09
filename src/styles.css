@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+div.card-header {
+ font-size: large;
+}
+
+div.card {
+  margin-top: 10px
+}
+
+div.card-body{
+  display: block;
+  min-height: 85%;
+}
+
+
+.table {
+  margin-top: 10px
+}
+
+a {
+  text-decoration: none; 
+}
+a:hover {
+  text-decoration: underline;
+}
+*{
+  margin: 0;
+}
+html, body{
+  height: 100%;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  margin: .5em 0 .5em 0;
+}
+aside,article{
+  padding: 0em;
+}
+aside{
+  text-align: center;
+}
+article{
+  width: 75%;
+}
+@media only screen and (min-width:768px){
+  main{
+    display: flex;
+    }
+  aside{
+    margin-left: 2%;
+  }
+  
+}
